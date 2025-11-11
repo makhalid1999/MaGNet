@@ -10,7 +10,7 @@
 --DNET_fix_encoder_weights None
 
 --dataset_name 7scenes
---dataset_path /path/to/SevenScenes/
+--dataset_path /kaggle/input/rgbd-scene-time-lapses
 
 --input_height 480
 --input_width 640
