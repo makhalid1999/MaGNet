@@ -43,7 +43,7 @@ class SevenScenesLoadPreprocess(Dataset):
         seq_id = int(seq_id)
         img_idx = int(img_idx)
 
-        scene_dir = self.dataset_path + '/{}/seq-%02d/'.format(scene_name) % seq_id
+        scene_dir = f"{self.dataset_path}/{scene_name}/{scene_name}/seq-{seq_id:02d}/seq-{seq_id:02d}/"
 
         # img path and depth path
         img_path = scene_dir + '/frame-%06d.color.png' % img_idx
